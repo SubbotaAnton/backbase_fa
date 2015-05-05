@@ -1,0 +1,35 @@
+﻿.ng-hide {
+	display: none;
+}
+
+.text-highlight {
+	position: relative;
+	top: -1px;
+	display: inline-block;
+	border: 1px solid transparent;
+	border-radius: 100px;
+	line-height: 18px;
+	padding: 2px 4px;
+	box-shadow: 0 3px 10px #555555;
+}
+
+.filteredTd  {
+	background: rgba(255, 255, 0, 0.2);
+}
+
+.orderArrow {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: url('../img/arrow_order.png') no-repeat center center;
+	text-indent: -9999px;
+}
+
+.transaction-disputeBlock {
+	width : 20%;
+}
+
+.transaction-disputeBlock-msg {
+	display: block;
+	color: red;
+}

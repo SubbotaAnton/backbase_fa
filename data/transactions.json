@@ -1,0 +1,459 @@
+[  
+  {  
+    "id":"489b3110-17d5-4ebe-b4f2-0e5074811964",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408382791205,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"T-Mobile",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":12.19,
+    "transactionCurrency":"EUR",
+    "transactionType":"Payment Credit Card",
+    "address":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"53ca02a8-1ce1-4d63-81f8-c28448a823d1",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408362695204,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Atlantic City Electric",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":28.19,
+    "transactionCurrency":"EUR",
+    "transactionType":"Payment Credit Card",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"CRDT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"3b3bd5c9-f462-4774-be34-8fedc35475d9",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408350391207,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Francine",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":18.12,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"CRDT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"b215195c-0217-4620-bd4c-cf08fb1bd595",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408349018205,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Atlantic City Electric",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":108.99,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"2ec24dbc-9337-4cb1-836b-fc1787d8bb0b",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408328731212,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"T-Mobile",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":621.99,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"fb8413a0-fe5a-4562-a752-13e4f0b434b5",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408268311213,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Texaco",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":198.99,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"6414b680-4ebb-4c77-8359-a8e9d538956b",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408232438209,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"The Tea Lounge",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":61.39,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"00b2ac48-ec66-46b8-b66d-2c35e868db05",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408223677208,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"The Tea Lounge",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":62.19,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"bc9a979d-cef9-4a17-a638-fbb653653ead",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408219711209,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"T-Mobile",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":611.20,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"81708dc0-a330-4b72-909a-b8c93554b38a",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408212696207,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"T-Mobile",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":63.51,
+    "transactionCurrency":"EUR",
+    "transactionType":"Bill Payment",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"CRDT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"2ce88a5f-879d-4492-8c2f-47e0955f666e",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408159534215,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Texaco",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":76.48,
+    "transactionCurrency":"EUR",
+    "transactionType":"Online Transfer",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"CRDT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"77dc90fe-9870-44bc-be79-6af49a4086c7",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408158333212,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"The Tea Lounge",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":2001.99,
+    "transactionCurrency":"EUR",
+    "transactionType":"Salary",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"CRDT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"80a25850-5dfb-47f3-bb78-366dba35e20d",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408138236204,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Texaco",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":198.99,
+    "transactionCurrency":"EUR",
+    "transactionType":"Bill Payment",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"25a0d12f-c94e-4d5a-9a7b-30153359ca9f",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408111236210,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"The Tea Lounge",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":51.89,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"CRDT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"403cd293-e2d1-4115-a9e4-7d9c50485ad8",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408076253215,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Atlantic City Electric",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":198.99,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"8cf73bef-c6ee-4771-bcbe-593e26ff8095",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408052251203,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Francine",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":98.21,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Personal"
+  },
+  {  
+    "id":"b10f0411-6a37-4eb9-87da-d335968166ca",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408052139206,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Macy",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":198.00,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"31ad90b2-0668-45bb-8a45-f2f6d19c4aa0",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1408038755207,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Atlantic City Electric",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":18.22,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"0b1c85ce-c137-432e-b946-633548488fdd",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1407986371211,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"T-Mobile",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":55.59,
+    "transactionCurrency":"EUR",
+    "transactionType":"Online Transfer",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  {  
+    "id":"edd277cd-245b-45c8-8015-9b2b4172ccf3",
+    "accountId":"4efc90d1-dc99-4922-b070-6104c19c6731",
+    "categoryId":"fff5b9f1-3dd6-4431-a20c-08589326b0c0",
+    "bookingDateTime":1407985533214,
+    "counterpartyAccount":"771599687",
+    "counterpartyName":"Texaco",
+    "instructedAmount":0,
+    "instructedCurrency":"EUR",
+    "transactionAmount":162.26,
+    "transactionCurrency":"EUR",
+    "transactionType":"Cash Withdrawl",
+    "address":{  
+
+    },
+    "location":{  
+
+    },
+    "merchantType":null,
+    "remittanceInformation":null,
+    "creditDebitIndicator":"DBIT",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  }
+]

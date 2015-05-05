@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html ng-app="transactionListWidget">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Transactions</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/transactions.css">
+		
+		<!-- Also we can move this style into another css -->
+		<!--[if IE 9]>
+		<style>
+			.text-highlight	 {
+				border-color: #555555;
+			}
+		</style>
+		<![endif]-->
+
+    </head>
+    <body>
+        <div class="panel panel-default">
+			<div class="panel-heading">
+				Transactions
+			</div>
+			<div class="panel-body">
+				<div ng-controller="TransactionListCtrl" class="ng-hide" ng-show="transactions.length">
+					
+					<!-- 
+						In the specification you asked me to add a client side filter tool, to filter the transations by 'Counterparty Name'.
+						I decide to make this filter more flexible. 
+						In this implementation client can change field for filtering between 'Counterparty Name' and 'Transaction type'					
+					-->
+					<div class="input-group">
+						<span class="input-group-addon" id="basic-addon1">Filter:</span>
+						<input type="text" name="query" class="form-control" aria-label="Text input with dropdown button"
+							placeholder="Filter your transactions by '{{sortedBy.name}}'" ng-model="query">
+						<div class="input-group-btn">
+							<button type="button" class="btn btn-default dropdown-toggle" 
+								data-toggle="dropdown" aria-expanded="false">{{sortedBy.name}} <span class="caret"></span></button>
+							<ul class="dropdown-menu dropdown-menu-right" role="menu" >
+								<li ng-repeat="field in sortedFields">
+									<a href="#" ng-click="setDefaultFilterField(field)">{{field.name}}</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<table class="table">
+						<tr>
+							<!-- 
+								In the specification you asked me to add an option to sort the transactions by amount.
+								I do it in an extended version - Client can sort the transactions by 4 different type of fields
+							-->													
+							<th>#</th>
+							<th>
+								Counterparty name
+								<a href="#" class="orderArrow" ng-click="reorderTransaction('counterpartyName')">Order by counterpartyName</a>
+							</th>
+							<th>
+								Transaction type
+								<a href="#" class="orderArrow" ng-click="reorderTransaction('transactionType')">Order by transactionType</a>
+							</th>
+							<th>
+								Transaction amount
+								<a href="#" class="orderArrow" ng-click="reorderTransaction('transactionAmount')">Order by transactionAmount</a>
+							</th>
+							<th>
+								Booking date time
+								<a href="#" class="orderArrow" ng-click="reorderTransaction('bookingDateTime')">Order by bookingDateTime</a>
+							</th>
+							<th>Dispute</th>
+						</tr>
+						<tr ng-repeat="transaction in transactions | filter : search">
+							<td>{{$index + 1}}</td>
+							<!--
+								I used ng-class to highlight a filtered column.
+								I create a directive highlight-text to highlight matches with filter query
+							-->
+							<td ng-class="{filteredTd : sortedBy.type == 'counterpartyName' && query}">
+								<highlight-text query="query" ng-if="sortedBy.type == 'counterpartyName'">{{transaction.counterpartyName}}</highlight-text>
+								<span ng-if="sortedBy.type != 'counterpartyName'">{{transaction.counterpartyName}}</span>
+							</td>
+							<td ng-class="{filteredTd : sortedBy.type == 'transactionType' && query}">
+								<highlight-text query="query" ng-if="sortedBy.type == 'transactionType'">{{transaction.transactionType}}</highlight-text>
+								<span ng-if="sortedBy.type != 'transactionType'">{{transaction.transactionType}}</span>
+							</td>
+							<td>
+								{{transaction.transactionAmount}} {{transaction.transactionCurrency}}
+							</td>
+							<td>
+								{{transaction.bookingDateTime | date: 'd MMMM yyyy HH:mm'}}
+							</td>
+							<td class="transaction-disputeBlock"><button class="btn btn-default" type="button"
+								ng-disabled="transaction.isDisputed" ng-click="disputeTransaction(transaction)">Dispute!</button>
+								<div class="transaction-disputeBlock-msg">{{transaction.disputeMessage}}<div>
+							</td>
+						</td>
+					</table>
+				</div>
+			</div>
+		</div>
+		
+
+		<script src="js/jquery/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap/bootstrap.min.js"></script>
+		
+		
+		<script src="js/angular/angular.min.js"></script>		
+		<script src="js/angular/angular-resource.min.js"></script>		
+		<script src="js/transaction-list.js"></script>		
+		<script src="js/transaction-list.controllers.js"></script>		
+		<script src="js/transaction-list.directives.js"></script>		
+    </body>
+</html>
